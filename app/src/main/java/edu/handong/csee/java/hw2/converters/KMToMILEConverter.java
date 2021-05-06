@@ -27,7 +27,7 @@ public class KMToMILEConverter implements Convertible {
      * This method converts kilometer value into mile value
      */
     public void convert() {
-        miles = kilometers / (float)1.6;
+        miles = kilometers / 1.6;
     }
 
 }
